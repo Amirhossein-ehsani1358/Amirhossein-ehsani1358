@@ -1,0 +1,14 @@
+body{
+    background-color: #e7e7e7;
+    height: 2000px;
+}
+
+@media all and (max-width:767px) {
+    .edit1{
+        height: 48px;
+        background-color: white;
+
+    }
+}
+
+@media all and (min-width:7678px) {}
