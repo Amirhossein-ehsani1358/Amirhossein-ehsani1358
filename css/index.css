@@ -1,14 +1,39 @@
-body{
+body {
     background-color: #e7e7e7;
     height: 2000px;
 }
 
 @media all and (max-width:767px) {
-    .edit1{
+    .edit1 {
         height: 48px;
-        background-color: white;
 
     }
+
+    .edit2 {
+        width: 28px;
+        height: 28px;
+        background-image: url(../images/1.png);
+        transition: all 300ms ease 0s;
+    }
+
+    .edit2:hover {
+        background-image: url(../images/2.jpg);
+    }
+
+    .edit3{
+    }
+
 }
 
-@media all and (min-width:7678px) {}
+@media all and (min-width:768px) {
+    .edit2 {
+        width: 28px;
+        height: 28px;
+        background-image: url(../images/1.png);
+        transition: all 300ms ease 0s;
+    }
+
+    .edit2:hover {
+        background-image: url(../images/2.jpg);
+    }
+}
