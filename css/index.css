@@ -161,9 +161,9 @@ body {
     }
 
     .edit13 {
-
+        position: relative;
         margin-top: 190px;
-        margin-right: 100px;
+        right: -50px;
         width: 104px;
         height: 30px;
         background-color: white;
@@ -172,6 +172,13 @@ body {
 
     .edit13:hover {
         background-color: #e1e1e1;
+    }
+
+    .edit14{
+        font-family: "Camphor Pro VF", "Camphor Pro", sans-serif;
+        line-height: 30px;
+        font-size: 12px;
+        font-weight: 400;
     }
 }
 
